@@ -1,8 +1,9 @@
-import { WrapperHomePage, HomeTitle } from './Home.styled';
+import { ImgHomePage, HomeTitle } from './Home.styled';
 export default function Home() {
   return (
-    <WrapperHomePage>
+    <div>
       <HomeTitle>Welcome to the phone book!</HomeTitle>
-    </WrapperHomePage>
+      <ImgHomePage></ImgHomePage>
+    </div>
   );
 }
