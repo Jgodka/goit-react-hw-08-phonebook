@@ -34,7 +34,7 @@ export const ContactList = () => {
           return (
             <li key={contact.id}>
               <SpanName>{contact.name}:</SpanName>
-              <SpanNumber>{contact.phone}</SpanNumber>
+              <SpanNumber>{contact.number}</SpanNumber>
               <ButtonDelete
                 type="button"
                 onClick={() => onDeleteContact(contact.id)}

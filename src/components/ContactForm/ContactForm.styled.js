@@ -17,12 +17,12 @@ export const StyledForm = styled(Form)`
 `;
 export const AddButton = styled.button`
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: #7703fc;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 20px;
   width: 150px;
 `;
 export const ErrorMsg = styled(ErrorMessage)`

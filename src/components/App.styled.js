@@ -1,9 +1,5 @@
 import styled from 'styled-components';
 
-export const Title = styled.h1`
+export const Wrapper = styled.Routes`
   font-size: 32px;
-`;
-
-export const Subtitle = styled.h2`
-  font-size: 28px;
 `;
